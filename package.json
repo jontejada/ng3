@@ -1,0 +1,29 @@
+{
+  "name": "ng3",
+  "version": "1.0.0",
+  "description": "angular unit 3 work",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jontejada/ng3.git"
+  },
+  "author": "Jon Tejada",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jontejada/ng3/issues"
+  },
+  "homepage": "https://github.com/jontejada/ng3#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "knex": "^0.9.0",
+    "method-override": "^2.3.5",
+    "morgan": "^1.6.1",
+    "pg": "^4.4.4"
+  }
+}
